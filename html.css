@@ -1,4 +1,4 @@
-
+<style type="text/css">
 .transButton {opacity: 1;-webkit-transform: translate(0,0);-ms-transform: translate(0,0);transform: translate(0,0);}
 .transButton {display: block;position: relative;text-align: left;
 	/* transform: translate(-20px,0); -webkit-transform: translate(-20px,0);-ms-transform: translate(-20px,0); */
@@ -32,4 +32,15 @@
 	transition: .25s all;
 }
 .transButton:hover{color: #418e42;opacity: .9;padding-right: 70px;}
+</style>
+
+
+
+
+---html-----
+<body style="background:#eee;">
+<div class="transButton">
+	<a href="#">start start start</a>
+</div>
+</body>
 

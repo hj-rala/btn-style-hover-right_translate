@@ -1,0 +1,35 @@
+
+.transButton {opacity: 1;-webkit-transform: translate(0,0);-ms-transform: translate(0,0);transform: translate(0,0);}
+.transButton {display: block;position: relative;text-align: left;
+	/* transform: translate(-20px,0); -webkit-transform: translate(-20px,0);-ms-transform: translate(-20px,0); */
+	transition: .5s all; -webkit-transition: .5s all;-o-transition: .5s all;
+	transition-delay: .5s; -webkit-transition-delay: .5s;-o-transition-delay: .5s;
+	}
+.transButton {background-image: url('img/ico_plus.png');
+	background-position: right 20px center;
+	background-repeat: no-repeat;
+	/* background-size: 18px 8px; */
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	vertical-align: top;
+	border-radius: 1000px;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+	background-color: #fff;
+	border: 0;
+	color: #418e42;
+	cursor: pointer;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 18px;
+	padding: 13px 60px 12px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: .25s all;
+	-o-transition: .25s all;
+	transition: .25s all;
+}
+.transButton:hover{color: #418e42;opacity: .9;padding-right: 70px;}
+
